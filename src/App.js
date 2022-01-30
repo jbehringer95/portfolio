@@ -1,5 +1,6 @@
-import { buildTimeValue } from "@testing-library/user-event/dist/utils";
 import React, { Component } from "react";
+import Projects from "./Projects";
+import SocialProfiles from "./SocialProfiles";
 
 class App extends Component {
     state = { displayBio: false };
@@ -28,6 +29,10 @@ class App extends Component {
                         </div>
                     )
                }
+               <hr />
+               <Projects />
+               <hr />
+               <SocialProfiles />
            </div>
        ) 
     }
